@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 13.04.2025
-  Time: 1:23
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to the Text Quest! (This quest is in English because I’m currently learning it in depth and working to improve my skills.)</h1>
+<p>Enter your name to begin the journey.</p>
+
+<form action="${pageContext.request.contextPath}/start" method="post">
+  <input type="text" name="playerName" required placeholder="Your name">
+  <button type="submit">Start</button>
+</form>
+</body>
 </html>
