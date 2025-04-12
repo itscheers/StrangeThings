@@ -61,4 +61,4 @@ public class GameState {
     public void setResultMessage(String resultMessage) {
         this.resultMessage = resultMessage;
     }
-}
+}//ok

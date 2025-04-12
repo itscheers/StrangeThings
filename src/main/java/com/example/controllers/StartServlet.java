@@ -34,4 +34,4 @@ public class StartServlet extends HttpServlet {
         session.setAttribute("gameState", state);
         response.sendRedirect(request.getContextPath() + "/game");
     }
-}
+}//ok

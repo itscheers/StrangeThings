@@ -96,4 +96,4 @@ public class GameLogic {
                 state.setResultMessage("Defeat. The story ends here.");
         }
     }
-}
+}//ok

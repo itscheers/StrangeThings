@@ -60,4 +60,4 @@ public class GameServlet extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/game");
         }
     }
-}
+}//ok
