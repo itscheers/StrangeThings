@@ -61,7 +61,7 @@
                 </configuration>
             </plugin>
 
-            <!-- maven war plugin для сборки wara-->
+            <!-- maven warr plugin для сборки wara-->
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>

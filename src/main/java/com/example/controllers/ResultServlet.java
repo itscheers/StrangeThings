@@ -30,4 +30,4 @@ public class ResultServlet extends HttpServlet {
         session.removeAttribute("gameState");
         response.sendRedirect(request.getContextPath() + "/start");
     }
-}
+}//ok

@@ -26,7 +26,7 @@
         <url-pattern>/game</url-pattern>
     </servlet-mapping>
 
-    <!-- ResultServlet -->
+    <!-- ResultServlett -->
     <servlet>
         <servlet-name>ResultServlet</servlet-name>
         <servlet-class>com.example.controllers.ResultServlet</servlet-class>
